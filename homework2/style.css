@@ -1,0 +1,44 @@
+.navigation {
+    text-align: center;
+    display: flex;
+    list-style: none;
+   
+    justify-content: space-between;
+}
+.logo {
+    height: 7vh;
+    padding: 5px;
+}
+.shapka {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(215, 142, 40, 0.839);
+    
+}
+.navigation li {
+    margin: 5px;
+    padding: 5px;
+}
+.image img {
+    display: flex;
+    justify-content: space-between;
+    height: 30vh;
+    transition: height 1s ease-out 5ms
+}
+.foto1 {
+    display: flex;
+    margin: 10px;
+    padding: 10px;
+    justify-content: space-between;
+}
+.futer {
+    background-color: rgba(215, 142, 40, 0.839); 
+    padding: 5px;
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+}
+
+.image img:hover {
+    height: 35vh;
+}
